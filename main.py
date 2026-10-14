@@ -168,7 +168,7 @@ def find_power_off_record(logs: list) -> Optional[dict]:
 
     条件：
     1. endtype = 39（断电结束）
-    2. 结束时间在【昨天 23:45 - 今天 00:15】之间
+    2. 结束时间在【昨天 23:45 - 今天 00:30】之间
     3. 必须是昨天/今天的记录，不能是更早的
     """
     now = datetime.now(TZ_BEIJING)
